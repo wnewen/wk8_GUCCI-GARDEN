@@ -1,4 +1,4 @@
-body{
+/* body{
     background-color: #e597a7;
 }
 .eye{
@@ -29,4 +29,45 @@ img{
 .button:hover{
     background-color: #ffffff;
     color: #000000;
+} */
+
+body{
+    background-color: #e597a7;
+}
+.eye{
+
+display: flex;
+width: 500px;
+justify-content: center;
+margin: auto;
+}
+img{
+   width:900px; 
+}
+.button{
+    background-color: #e597a7;
+    color: #000000;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    font-family: optima;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 3px;
+
+}
+.button:hover{
+    background-image:url(../image/button.jpg);
+    background-position: center center;
+    background-size: 100%;
+    backface-visibility:visible;
+    transform: rotate(90deg);
+    border-radius: 50%;
+    color:rgb(255,255,255,0.001);
+
+    transition: 0.5s;
 }
