@@ -29,7 +29,7 @@ body {
     width: 100%;
     height: 5rem;
     background-color: #e597a7;
-    background-image: url("../image/header_new.jpg");
+    background-image: url("./image/header_new.jpg");
     background-repeat: no-repeat;
     background-size: 10%;
     background-position: center center;
