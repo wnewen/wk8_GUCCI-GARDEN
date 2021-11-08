@@ -1,0 +1,189 @@
+html {
+    box-sizing: border-box;
+    min-height: 100%;
+}
+
+*, *:before, *:afer {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #fff6f6;
+    margin: 0;
+    font-family: Arial;
+    font-size: 16px;
+    min-height: 100%;
+}
+
+.wrapper {
+    min-height: 100%; /*使用position對需固定元素定位*/
+    position: relative;
+    padding-top: 4rem;
+    padding-bottom: 3.25rem;   /*該值設定大於等於按鈕的高度*/
+}
+
+/*header*/
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: #e597a7;
+    background-image: url("../image/header_new.jpg");
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: center center;
+}
+
+.container {
+    margin: auto;
+}
+
+article {
+    margin: 0 7rem;
+}
+
+.nav {
+    width:100%;
+    display: flex;
+    margin: 3.85rem 0 3rem;
+    justify-content: center;
+}
+
+.nav-ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    font-weight: 700;
+    padding: 0;
+    margin: 0 6.75em;
+    width: 5rem;
+}
+
+
+.list-line{
+    background-color:#e294a4;
+    width: 1px;
+    height: 25px;
+}
+.nav-link {
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.nav-link:hover{
+    transition: 0.5s;
+    transform:scale(1.3);
+    color:#e294a4;
+    
+}
+
+/*商品區一*/
+/* .store {
+    display: flex;
+}
+.souvenir-left{
+    width: 50%;
+}
+
+.lefttop-box {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.lefttop-image {
+    width: 45%;
+}
+
+.leftbottom-image {
+    margin-top: 3rem;
+    width: 90%;
+
+}
+
+.souvenir-right {
+    width: 50%;
+}
+
+.rightbottom-box {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.righttop-image {
+    width: 90%;
+}
+
+.rightbottom-image {
+    margin-top: 3rem;
+    width: 45%;
+
+} */
+
+/* .price{
+    display: none;
+} */
+
+/* .price:hover {
+    display: block;
+
+    font-size: 30%;
+    color: cornflowerblue;
+} */
+.store {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*footer*/
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 3rem;
+
+    position: absolute; /*定位*/
+    /* position: fixed; */
+    bottom: 0;
+
+    display: flex;
+    align-items: center;
+    font-size: 0.35rem;
+}
+
+.footer-text {
+    color: rgb(221, 221, 221);
+    margin-left: 5em;
+    width: 80%;
+}
+
+.social {
+    display: flex;
+    justify-content: flex-end;
+    width: 20%;
+}
+
+.social-button {
+    display: block;
+    width: 5em;
+    background-image: url(../image/ighover.png);
+}
+
+.social-button:hover {
+    display: block;
+    width: 5em;
+    background-image: url(../image/ighover.png);
+}
+
+.social-icon {
+    width: 80%;
+}
