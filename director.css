@@ -106,7 +106,7 @@ article {
     justify-content: flex-start;
     position: absolute;
     top: 4rem;
-    left: 1rem;
+    left: 0rem;
     z-index: 0;
 }
 
