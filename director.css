@@ -247,14 +247,16 @@ article {
 .collectors2-image3 {
     width: 100%;
     margin-bottom: 3em;
+    border-radius: 3rem;
+   
 }
 
-.collectors2-image3:hover {
+/* .collectors2-image3:hover {
     width: 100%;
     border-radius: 3rem;
     margin-bottom: 3em;
     transition: 0.5s;
-}
+} */
 
 .collectors2-image4 {
     width: 100%;
