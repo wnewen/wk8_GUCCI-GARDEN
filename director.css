@@ -247,7 +247,7 @@ article {
 .collectors2-image3 {
     width: 100%;
     margin-bottom: 3em;
-    border-radius: 3rem;
+    border-radius: 3rem 3rem 3rem 0;
    
 }
 
